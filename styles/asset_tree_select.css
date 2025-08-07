@@ -1,0 +1,39 @@
+.asset-tree .dropdown-trigger {
+  border-radius: 0.5rem;
+  width: 100%;
+
+  text-align: center;
+  animation: shake 1s;
+}
+.asset-tree .dropdown-content {
+  width: 100%;
+}
+.asset-tree .radio-select {
+  width: 100%;
+}
+.asset-tree .disabled {
+  -webkit-text-fill-color: blue;
+  cursor: default;
+  width: 100%;
+  display: absolute;
+  pointer-events: auto;
+}
+
+.disabled input[type="radio"] {
+  display: none;
+  width: 200%;
+}
+
+.asset-tree .toggle {
+  cursor: default;
+  font-size: x-large;
+}
+
+.asset-tree .node-label {
+  cursor: default;
+}
+
+input[type="button"] {
+  font-size: x-large;
+  pointer-events: auto;
+}

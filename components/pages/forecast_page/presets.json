@@ -1,0 +1,18 @@
+{
+  "gradePresets": [
+    { "name": "New Asset", "grades": [5, 5, 5, 5] },
+    { "name": "Normal Wear", "grades": [3, 4, 3, 3] },
+    { "name": "Damaged Asset", "grades": [1, 3, 3, 1] }
+  ],
+  "weightPresets": [
+    { "name": "Balanced", "weights": [5, 5, 5, 5] },
+    { "name": "Temperature Focus", "weights": [3, 5, 2, 10] },
+    { "name": "Asset Focus", "weights": [7, 4, 7, 2] }
+  ],
+  "factors": [
+    "Termination and Splice Inspection",
+    "Insulation Resistance",
+    "Asset Service Life",
+    "Fiber Temperature"
+  ]
+}

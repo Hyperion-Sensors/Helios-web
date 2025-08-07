@@ -1,0 +1,65 @@
+{
+  "main-pages": [
+    {
+      "title": "Dashboard",
+      "id": "dashboard",
+      "link": "/overview",
+      "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+      "icon_class": "rectangle-group",
+      "icon_type": "basic",
+      "scale": 5
+    },
+    {
+      "title": "Analysis",
+      "id": "stats",
+      "link": "/stats",
+      "icon": "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+      "icon_class": "stats",
+      "icon_type": "square",
+      "scale": 6
+    },
+    {
+      "title": "Visualizer",
+      "id": "visualizer",
+      "link": "/visualizer",
+      "icon": "M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5",
+      "icon_class": "3d",
+      "icon_type": "box",
+      "scale": 5
+    },
+    {
+      "title": "Forecast",
+      "id": "forecast",
+      "link": "/forecast",
+      "icon_class": "arrow",
+      "icon_type": "trending-up",
+      "scale": 5
+    },
+    {
+      "title": "Data I/O",
+      "id": "dataio",
+      "link": "/dataio",
+      "icon_class": "cloud",
+      "icon_type": "arrow-up",
+      "scale": 5
+    }
+  ],
+  "user-pages": [
+    {
+      "title": "Settings",
+      "id": "settings",
+      "link": "/settings",
+      "icon_class": "gear",
+      "icon_type": "basic",
+      "scale": 5
+    },
+    {
+      "title": "Guides & Help",
+      "id": "guide",
+      "link": "/guide",
+      "icon_class": "help",
+      "icon_type": "question",
+      "scale": 5
+    }
+  ]
+}

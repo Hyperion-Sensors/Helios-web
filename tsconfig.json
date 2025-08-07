@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/Global/*": [
+        "components/global/*"
+      ],
+      "@/Settings/*": [
+        "components/pages/settings_page/*"
+      ],
+      "@/Overview/*": [
+        "components/pages/overview_page/*"
+      ],
+      "@/Stats/*": [
+        "components/pages/stats_page/*"
+      ],
+      "@/3D/*": [
+        "components/pages/visualizer_page/*"
+      ],
+      "@/API/*": [
+        "hooks/endpoints/*"
+      ],
+      "@/Queries/*": [
+        "hooks/queries/*"
+      ],
+      "@/Context/*": [
+        "context/*"
+      ],
+      "@/Types/*": [
+        "utils/types/*"
+      ],
+      "@/Helpers/*": [
+        "utils/helpers/*"
+      ],
+      "@/Hooks/*": [
+        "hooks/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/pages/overview_page/tabs/tab_data.tss",
+    "components/global/navbar.js",
+    "components/pages/overview_page/map_block/index.js",
+    "components/global/layout.jsx",
+    "components/pages/stats_page/load_chart.js",
+    "components/pages/overview_page/3D/three-d-viewer.jsx",
+    "pages/analytics.tsx",
+    "hooks/endpoints/global_service.js",
+    "components/global/tables/notifications-table/columns.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

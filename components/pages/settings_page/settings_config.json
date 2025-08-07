@@ -1,0 +1,103 @@
+{
+  "tabs": [
+    {
+      "name": "general",
+      "description": "Choices to enhance your user experience.",
+
+      "settings": [
+        {
+          "name": "Theme",
+          "type": "select",
+          "list": ["dark", "light"],
+          "static": null,
+          "description": "Choose color theme for the dashboard"
+        },
+        {
+          "name": "Side_Panel_Default",
+          "type": "check",
+          "list": null,
+          "static": null,
+          "description": "Should the side panel (left) default as open or closed?"
+        },
+        {
+          "name": "Color_Blind_Mode",
+          "type": "check",
+          "list": null,
+          "static": null,
+          "description": "Feature coming soon..."
+        }
+      ],
+      "no_access": false
+    },
+    {
+      "name": "data_options",
+      "description": "The choices provided below will assist you in fulfilling your data requirements.",
+
+      "settings": [
+        {
+          "name": "Pinned_Assets",
+          "type": "multi-select",
+          "list": ["assets"],
+          "static": null,
+          "description": "Add up to 10 assets as 'favorites'"
+        },
+
+        {
+          "name": "Data_Refresh_Rate",
+          "type": "number",
+          "list": null,
+          "static": 120,
+          "description": "Unit is seconds, minimum is 30 seconds"
+        },
+        {
+          "name": "Favorite_Widgets",
+          "type": "multi-select",
+          "list": null,
+          "static": null,
+          "description": "Add your favorite widgets on Statistics Dashboard"
+        },
+        {
+          "name": "Unit_System",
+          "type": "select",
+          "list": ["metric", "imperial"],
+          "static": null,
+          "description": "Unit system for temperature and distance"
+        }
+      ],
+      "no_access": false
+    },
+    {
+      "name": "admin",
+      "description": "Settings are for Admins Only",
+
+      "settings": [
+        {
+          "name": "Enable",
+          "type": "check",
+          "list": null,
+          "static": null
+        },
+        {
+          "name": "Enable",
+          "type": "check",
+          "list": null,
+          "static": null
+        }
+      ],
+      "no_access": true
+    }
+  ],
+  "default-settings": {
+    "general": {
+      "Theme": "light",
+      "Side_Panel_Default": true,
+      "Color_Blind_Mode": false
+    },
+    "data_options": {
+      "Pinned_Assets": [],
+      "Favorite_Widgets": [],
+      "Data_Refresh_Rate": 30,
+      "Unit_System": "metric"
+    }
+  }
+}
