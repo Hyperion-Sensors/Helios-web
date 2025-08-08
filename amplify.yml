@@ -11,6 +11,7 @@ frontend:
         - env | grep -e COGNITO_CLIENT_ID -e COGNITO_CLIENT_SECRET -e COGNITO_ISSUER >> .env.production
         - env | grep -e NEXTAUTH_SECRET >> .env.production
         - env | grep -e NEXT_PUBLIC_ >> .env.production
+        - env | grep -e S3_BUG_REPORTS_ >> .env.production
         - yarn run build
   artifacts:
     baseDirectory: .next

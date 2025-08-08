@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Helios Web
 
-## Getting Started
+Next.js 13 (pages/ router) app with Tailwind CSS (DaisyUI), NextAuth (Cognito), and Storybook.
 
-First, run the development server:
+### Quick start
+
+1) Install dependencies
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+2) Configure environment variables
+
+- Copy `docs/env.example` to `.env.local` and fill in values (see docs below).
+
+```bash
+cp docs/env.example .env.local
+```
+
+3) Run the app
+
+```bash
 yarn dev
 ```
 
-Open [http://192.168.0.133:3000](http://192.168.0.133:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Optional:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://192.168.0.133:3000/api/hello](http://192.168.0.133:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Run Storybook
+yarn storybook
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Documentation
 
-## Learn More
+- [docs/environment-variables.md](docs/environment-variables.md) — Create `.env.local` for local dev, and set Amplify env vars for test/prod
+- [docs/running.md](docs/running.md) — How to run locally, build, and run Storybook
+- [docs/pages-and-styles.md](docs/pages-and-styles.md) — Create new pages, and add styles using Tailwind/DaisyUI
+- [docs/components.md](docs/components.md) — Create components following the project structure
+- [docs/deployment.md](docs/deployment.md) — Amplify deployment flow (client-dev auto-updates from `main`, SRE promotion to production)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For a starter template, copy [docs/env.example](docs/env.example) to `.env.local`.
